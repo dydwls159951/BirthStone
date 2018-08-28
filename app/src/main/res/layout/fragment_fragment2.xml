@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="504dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="49dp">
+
+            <ImageView
+                android:id="@+id/stone1"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+
+            <ImageView
+                android:id="@+id/stone2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+
+            <ImageView
+                android:id="@+id/stone3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/stone4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+
+            <ImageView
+                android:id="@+id/stone5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+
+            <ImageView
+                android:id="@+id/stone6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/stone7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+
+            <ImageView
+                android:id="@+id/stone8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+
+            <ImageView
+                android:id="@+id/stone9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/stone10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+
+            <ImageView
+                android:id="@+id/stone11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+
+            <ImageView
+                android:id="@+id/stone12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lock" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/emoticon_button" />
+
+</LinearLayout>
