@@ -11,14 +11,19 @@
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
             <android.support.v7.widget.Toolbar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark"
                 android:elevation="1dp"
                 android:id="@+id/toolbar">
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_white"/>
             </android.support.v7.widget.Toolbar>
 
             <android.support.design.widget.TabLayout
@@ -29,8 +34,8 @@
                 android:background="@android:color/background_light"
                 app:tabMode="fixed"
                 app:tabGravity="fill"
-                app:tabTextColor="@color/colorPrimary"
-                app:tabSelectedTextColor="@color/colorAccent">
+                app:tabTextColor="#d7d7d7"
+                app:tabSelectedTextColor="#ae81e2">
             </android.support.design.widget.TabLayout>
 
         </android.support.design.widget.AppBarLayout>

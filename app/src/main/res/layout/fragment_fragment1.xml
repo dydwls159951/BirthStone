@@ -1,22 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="49dp"
-        android:text="주변에 2명의 임산부가 탑승중입니다."
+        android:layout_height="24dp"
+        android:layout_marginTop="90dp"
+        android:text="주변에 2명의 임산부가 탑승 중이에요."
         android:textAlignment="center"
+        android:textColor="#707070"
         android:textSize="18sp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:text="2명"
+        android:textColor="#705baf"
+        android:textSize="100sp" />
+
+    <Button
+        android:id="@+id/popupbutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/aaaa" />
+        android:background="#ffffff" />
 
 
 </LinearLayout>

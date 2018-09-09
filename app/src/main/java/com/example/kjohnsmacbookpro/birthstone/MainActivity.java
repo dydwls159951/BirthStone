@@ -15,9 +15,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        //1툴바 설정
-//        Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
+        //1툴바 설정
+        Toolbar toolbar= findViewById(R.id.toolbar);
+        toolbar.setBackgroundResource(R.drawable.tabbar);
+
+
 
         //2xml 프래그먼트를 보여주기
 
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().add(R.id.container,fragment1).commit();
 
         //3탭기능 구성
-        TabLayout tabs=(TabLayout)findViewById(R.id.tabs);
+        TabLayout tabs= findViewById(R.id.tabs);
         tabs.addTab(tabs.newTab().setText("적립현황"));
         tabs.addTab(tabs.newTab().setText("나의 스탬프"));
 
@@ -59,4 +61,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+
 }
